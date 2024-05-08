@@ -4,8 +4,8 @@
 #path: ../datasets/coco128 # dataset root dir
 path: ./datasets/traffic6603
 train: images/train6603 # train images (relative to 'path') 128 images
-val: images/train6603 # val images (relative to 'path') 128 images
-test: # test images (optional)
+val: /vaild/images  # val images (relative to 'path') 128 images
+test: /test/images # test images (optional)
 
 # Classes
 # names: ['bus', 'car', 'motorbike', 'person', 'speed_limit_100', 
